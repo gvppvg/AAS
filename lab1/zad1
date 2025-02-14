@@ -1,0 +1,13 @@
+c=int(input("num: "))
+b=bin(c)[2:]
+b1=oct(c)[2:]
+b2=hex(c)[2:]
+print("double: ", b, "eight: ", b1, "sixteen: ", b2)
+
+c1="10100101"
+b3=int(c1, 2)
+print("ten: ", b3)
+
+hex_string = "FF"
+d= int(hex_string, 16)
+print("sixteen: ", d)
