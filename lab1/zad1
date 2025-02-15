@@ -11,3 +11,23 @@ print("ten: ", b3)
 hex_string = "FF"
 d= int(hex_string, 16)
 print("sixteen: ", d)
+
+vv=float(input("num: "))
+ff=int(vv)
+ff=bin(ff)[2:]
+print(ff)
+
+def gg_g(gg):
+    if not 0 <=gg<1:
+        return"error"
+    bf=""
+    while gg and len(bf) < 2:
+        gg*=2
+        b=int(gg)
+        bf+=str(b)
+        gg-=b
+    return bf
+vv=vv
+gg = vv-int(vv)
+res = gg_g(gg)
+print(f"result: {vv}:0.{res}")
